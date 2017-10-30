@@ -13,6 +13,17 @@
 		751B762E1FA0EB1F00CED083 /* Nba_Fantasy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 751B762C1FA0EB1F00CED083 /* Nba_Fantasy.xcdatamodeld */; };
 		751B76301FA0EB1F00CED083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751B762F1FA0EB1F00CED083 /* Assets.xcassets */; };
 		751B76331FA0EB1F00CED083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751B76311FA0EB1F00CED083 /* LaunchScreen.storyboard */; };
+		751B763D1FA0EF4300CED083 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B763C1FA0EF4300CED083 /* CadastroViewController.swift */; };
+		7585C7401FA27E35002DE3F3 /* JogadoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C73F1FA27E35002DE3F3 /* JogadoresViewController.swift */; };
+		7585C7431FA293DA002DE3F3 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C7411FA293DA002DE3F3 /* Users+CoreDataClass.swift */; };
+		7585C7441FA293DA002DE3F3 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C7421FA293DA002DE3F3 /* Users+CoreDataProperties.swift */; };
+		7585C7461FA29450002DE3F3 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C7451FA29450002DE3F3 /* CoreDataHelper.swift */; };
+		75A621131FA29B5E00FFAE33 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A621121FA29B5E00FFAE33 /* Home.swift */; };
+		75A621161FA7756C00FFAE33 /* PlayersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A621141FA7739500FFAE33 /* PlayersTableViewCell.swift */; };
+		75D26CDA1FA266E600D23AF5 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D26CD91FA266E600D23AF5 /* Team.swift */; };
+		75D26CDE1FA2715400D23AF5 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D26CDD1FA2715400D23AF5 /* TeamCell.swift */; };
+		75E706A81FA0F4C60016BBE4 /* MeuTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E706A71FA0F4C60016BBE4 /* MeuTimeViewController.swift */; };
+		75E706AA1FA0F4D90016BBE4 /* AddJogadoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E706A91FA0F4D90016BBE4 /* AddJogadoresViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,45 @@
 		751B762F1FA0EB1F00CED083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751B76321FA0EB1F00CED083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751B76341FA0EB1F00CED083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751B763C1FA0EF4300CED083 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		7585C73F1FA27E35002DE3F3 /* JogadoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogadoresViewController.swift; sourceTree = "<group>"; };
+		7585C7411FA293DA002DE3F3 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7585C7421FA293DA002DE3F3 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7585C7451FA29450002DE3F3 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		75A621121FA29B5E00FFAE33 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		75A621141FA7739500FFAE33 /* PlayersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewCell.swift; sourceTree = "<group>"; };
+		75B5E2D11FA25B5800670231 /* nbafant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nbafant.png; sourceTree = "<group>"; };
+		75D26CD91FA266E600D23AF5 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		75D26CDC1FA26FFF00D23AF5 /* los_angeles_clippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = los_angeles_clippers.png; sourceTree = "<group>"; };
+		75D26CDD1FA2715400D23AF5 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		75D26CE01FA279A900D23AF5 /* 76ers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76ers.png; sourceTree = "<group>"; };
+		75D26CE11FA279A900D23AF5 /* Atlanta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Atlanta.png; sourceTree = "<group>"; };
+		75D26CE21FA279A900D23AF5 /* Boston.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boston.png; sourceTree = "<group>"; };
+		75D26CE31FA279A900D23AF5 /* Brooklyn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brooklyn.png; sourceTree = "<group>"; };
+		75D26CE41FA279A900D23AF5 /* Bucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bucks.png; sourceTree = "<group>"; };
+		75D26CE51FA279A900D23AF5 /* Bulls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bulls.png; sourceTree = "<group>"; };
+		75D26CE61FA279A900D23AF5 /* Cavs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cavs.png; sourceTree = "<group>"; };
+		75D26CE71FA279A900D23AF5 /* Dallas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dallas.png; sourceTree = "<group>"; };
+		75D26CE81FA279A900D23AF5 /* Denver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Denver.png; sourceTree = "<group>"; };
+		75D26CE91FA279A900D23AF5 /* GSW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSW.png; sourceTree = "<group>"; };
+		75D26CEA1FA279A900D23AF5 /* Houston.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Houston.png; sourceTree = "<group>"; };
+		75D26CEB1FA279A900D23AF5 /* Lakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lakers.png; sourceTree = "<group>"; };
+		75D26CEC1FA279A900D23AF5 /* Memphis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Memphis.png; sourceTree = "<group>"; };
+		75D26CED1FA279A900D23AF5 /* Miami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Miami.png; sourceTree = "<group>"; };
+		75D26CEE1FA279A900D23AF5 /* NewYork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewYork.png; sourceTree = "<group>"; };
+		75D26CEF1FA279A900D23AF5 /* Orlando.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orlando.png; sourceTree = "<group>"; };
+		75D26CF01FA279A900D23AF5 /* Pacers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pacers.png; sourceTree = "<group>"; };
+		75D26CF11FA279A900D23AF5 /* Phoenix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phoenix.png; sourceTree = "<group>"; };
+		75D26CF21FA279A900D23AF5 /* Pistons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pistons.png; sourceTree = "<group>"; };
+		75D26CF31FA279A900D23AF5 /* Portland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portland.png; sourceTree = "<group>"; };
+		75D26CF41FA279A900D23AF5 /* Sacramento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sacramento.png; sourceTree = "<group>"; };
+		75D26CF51FA279A900D23AF5 /* Spurs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spurs.png; sourceTree = "<group>"; };
+		75D26CF61FA279A900D23AF5 /* Toronto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toronto.png; sourceTree = "<group>"; };
+		75D26CF71FA279A900D23AF5 /* Utah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Utah.png; sourceTree = "<group>"; };
+		75D26CF81FA279A900D23AF5 /* Washington.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Washington.png; sourceTree = "<group>"; };
+		75D26CF91FA279A900D23AF5 /* Wolves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolves.png; sourceTree = "<group>"; };
+		75E706A71FA0F4C60016BBE4 /* MeuTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuTimeViewController.swift; sourceTree = "<group>"; };
+		75E706A91FA0F4D90016BBE4 /* AddJogadoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJogadoresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +90,8 @@
 		751B76191FA0EB1F00CED083 = {
 			isa = PBXGroup;
 			children = (
+				7585C7411FA293DA002DE3F3 /* Users+CoreDataClass.swift */,
+				7585C7421FA293DA002DE3F3 /* Users+CoreDataProperties.swift */,
 				751B76241FA0EB1F00CED083 /* Nba Fantasy */,
 				751B76231FA0EB1F00CED083 /* Products */,
 			);
@@ -60,11 +112,56 @@
 				751B76271FA0EB1F00CED083 /* ViewController.swift */,
 				751B76291FA0EB1F00CED083 /* Main.storyboard */,
 				751B762F1FA0EB1F00CED083 /* Assets.xcassets */,
+				75D26CDC1FA26FFF00D23AF5 /* los_angeles_clippers.png */,
+				75B5E2D11FA25B5800670231 /* nbafant.png */,
 				751B76311FA0EB1F00CED083 /* LaunchScreen.storyboard */,
 				751B76341FA0EB1F00CED083 /* Info.plist */,
+				75D26CDF1FA279A900D23AF5 /* Pasta Sem Título */,
 				751B762C1FA0EB1F00CED083 /* Nba_Fantasy.xcdatamodeld */,
+				751B763C1FA0EF4300CED083 /* CadastroViewController.swift */,
+				75E706A71FA0F4C60016BBE4 /* MeuTimeViewController.swift */,
+				75E706A91FA0F4D90016BBE4 /* AddJogadoresViewController.swift */,
+				75D26CD91FA266E600D23AF5 /* Team.swift */,
+				75D26CDD1FA2715400D23AF5 /* TeamCell.swift */,
+				7585C73F1FA27E35002DE3F3 /* JogadoresViewController.swift */,
+				7585C7451FA29450002DE3F3 /* CoreDataHelper.swift */,
+				75A621121FA29B5E00FFAE33 /* Home.swift */,
+				75A621141FA7739500FFAE33 /* PlayersTableViewCell.swift */,
 			);
 			path = "Nba Fantasy";
+			sourceTree = "<group>";
+		};
+		75D26CDF1FA279A900D23AF5 /* Pasta Sem Título */ = {
+			isa = PBXGroup;
+			children = (
+				75D26CE01FA279A900D23AF5 /* 76ers.png */,
+				75D26CE11FA279A900D23AF5 /* Atlanta.png */,
+				75D26CE21FA279A900D23AF5 /* Boston.png */,
+				75D26CE31FA279A900D23AF5 /* Brooklyn.png */,
+				75D26CE41FA279A900D23AF5 /* Bucks.png */,
+				75D26CE51FA279A900D23AF5 /* Bulls.png */,
+				75D26CE61FA279A900D23AF5 /* Cavs.png */,
+				75D26CE71FA279A900D23AF5 /* Dallas.png */,
+				75D26CE81FA279A900D23AF5 /* Denver.png */,
+				75D26CE91FA279A900D23AF5 /* GSW.png */,
+				75D26CEA1FA279A900D23AF5 /* Houston.png */,
+				75D26CEB1FA279A900D23AF5 /* Lakers.png */,
+				75D26CEC1FA279A900D23AF5 /* Memphis.png */,
+				75D26CED1FA279A900D23AF5 /* Miami.png */,
+				75D26CEE1FA279A900D23AF5 /* NewYork.png */,
+				75D26CEF1FA279A900D23AF5 /* Orlando.png */,
+				75D26CF01FA279A900D23AF5 /* Pacers.png */,
+				75D26CF11FA279A900D23AF5 /* Phoenix.png */,
+				75D26CF21FA279A900D23AF5 /* Pistons.png */,
+				75D26CF31FA279A900D23AF5 /* Portland.png */,
+				75D26CF41FA279A900D23AF5 /* Sacramento.png */,
+				75D26CF51FA279A900D23AF5 /* Spurs.png */,
+				75D26CF61FA279A900D23AF5 /* Toronto.png */,
+				75D26CF71FA279A900D23AF5 /* Utah.png */,
+				75D26CF81FA279A900D23AF5 /* Washington.png */,
+				75D26CF91FA279A900D23AF5 /* Wolves.png */,
+			);
+			path = "Pasta Sem Título";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +236,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A621161FA7756C00FFAE33 /* PlayersTableViewCell.swift in Sources */,
+				75D26CDE1FA2715400D23AF5 /* TeamCell.swift in Sources */,
 				751B762E1FA0EB1F00CED083 /* Nba_Fantasy.xcdatamodeld in Sources */,
 				751B76281FA0EB1F00CED083 /* ViewController.swift in Sources */,
+				75D26CDA1FA266E600D23AF5 /* Team.swift in Sources */,
+				7585C7401FA27E35002DE3F3 /* JogadoresViewController.swift in Sources */,
+				7585C7441FA293DA002DE3F3 /* Users+CoreDataProperties.swift in Sources */,
+				75A621131FA29B5E00FFAE33 /* Home.swift in Sources */,
+				7585C7461FA29450002DE3F3 /* CoreDataHelper.swift in Sources */,
+				75E706AA1FA0F4D90016BBE4 /* AddJogadoresViewController.swift in Sources */,
 				751B76261FA0EB1F00CED083 /* AppDelegate.swift in Sources */,
+				75E706A81FA0F4C60016BBE4 /* MeuTimeViewController.swift in Sources */,
+				7585C7431FA293DA002DE3F3 /* Users+CoreDataClass.swift in Sources */,
+				751B763D1FA0EF4300CED083 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +387,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J762AZ7K8V;
 				INFOPLIST_FILE = "Nba Fantasy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IFCE.Nba-Fantasy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,7 +403,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J762AZ7K8V;
 				INFOPLIST_FILE = "Nba Fantasy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IFCE.Nba-Fantasy";
 				PRODUCT_NAME = "$(TARGET_NAME)";

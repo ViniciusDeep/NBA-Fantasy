@@ -7,9 +7,14 @@
 //
 
 import UIKit
-
+import CoreData
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var loginText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,36 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    
+    @IBAction func enterButton(_ sender: Any) {
+         let result = try? coreDataHelper.persistentContainer.viewContext.fetch(Users.userFetchRequest()) as [NSManagedObject]
+        
+        let users = result?.map({(user) -> Users in return user as! Users
+            
+        })
+        
+       
+        
+        
+        users?.forEach({ (user) in
+            user as Users
+            if loginText.text == user.login && passwordText.text == user.senha {
+                
+            }
+            
+        })
+        
+       
+        
+     
+        
+    
+    }
+    
+    
+    
 
 }
 
