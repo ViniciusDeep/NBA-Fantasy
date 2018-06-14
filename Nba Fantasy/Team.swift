@@ -8,17 +8,47 @@
 
 import Foundation
 import UIKit
+
+
+class Jogador {
+    var nome: String
+    var image: UIImage
+    var preco: Double
+    
+    init(nome: String, image: UIImage, preco: Double) {
+        self.nome = nome
+        self.image = image
+        self.preco = preco
+    }
+    
+}
+
+
+
 class Team {
     
     var photo: UIImage
     var nome: String
-    public var jogadores: [String] = []
-    
+    var jogadores: [Jogador] = []
+
     init(photo: UIImage, nome: String) {
         self.photo = photo
         self.nome = nome
+        
     }
     
+  
     
+    
+    public func cadastraJogadores(nome: [String], image: [UIImage], preco: [Double]) {
+        
+    
+        for i in 0..<nome.count{
+            let jogador = Jogador(nome: nome[i], image: image[i], preco: preco[i])
+            jogadores.append(jogador)
+        }
+    
+    }
+
     
 }

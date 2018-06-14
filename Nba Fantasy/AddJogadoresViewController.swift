@@ -13,6 +13,7 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
     
     var time: [Team] = []
     
+    
     @IBOutlet weak var tableView: UITableView!
     
   
@@ -21,11 +22,13 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
         tableView.delegate = self
         tableView.dataSource = self
         time = criatimes()
+        
     }
 
   
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "segue", sender: time[indexPath.row])
+        
         
         
         
@@ -35,12 +38,13 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
         if segue.identifier == "segue" {
             if let controller = segue.destination as? JogadoresViewController {
                 controller.time = sender as! Team
-             
+                
             }
         }
         
-        
     }
+    
+    
     
     
     
@@ -74,11 +78,10 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
         let time21 = Team(photo: #imageLiteral(resourceName: "Sacramento.png"), nome: "Sacramento Kings")
         let time22 = Team(photo: #imageLiteral(resourceName: "Washington"), nome: "Washigton Wizards")
         
+        time15.cadastraJogadores(nome: ["Giannis Antetokoumpo", "Greg Monroe"], image: [#imageLiteral(resourceName: "giannis"), #imageLiteral(resourceName: "greg") ], preco: [20, 8])
+        time16.cadastraJogadores(nome: ["Jonathan"], image: [#imageLiteral(resourceName: "giannis")], preco: [10])
         
-        time1.jogadores.append("Vinicius")
         
-        
-       
         
         return [time1, time2,time3,time4,time5,time6,time7,time8,time9,time10,time11,time12,time13,time14,time15,time16,time17,time18,time19,time20,time21,time22]
         
@@ -86,8 +89,13 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
     
     
     
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TeamCell
+        
+        
+        
         cell.name.text = time[indexPath.row].nome
        
         cell.photo.image = time[indexPath.row].photo
@@ -101,6 +109,7 @@ class AddJogadoresViewController: UIViewController,UITableViewDataSource,UITable
     }
     
     
+  
     
     
 }

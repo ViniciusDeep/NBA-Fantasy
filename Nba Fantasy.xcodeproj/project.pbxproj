@@ -72,6 +72,7 @@
 		75D26CF71FA279A900D23AF5 /* Utah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Utah.png; sourceTree = "<group>"; };
 		75D26CF81FA279A900D23AF5 /* Washington.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Washington.png; sourceTree = "<group>"; };
 		75D26CF91FA279A900D23AF5 /* Wolves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolves.png; sourceTree = "<group>"; };
+		75E1DAC61FA8B7F0001CF5A0 /* lebron.jp2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lebron.jp2; sourceTree = "<group>"; };
 		75E706A71FA0F4C60016BBE4 /* MeuTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuTimeViewController.swift; sourceTree = "<group>"; };
 		75E706A91FA0F4D90016BBE4 /* AddJogadoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJogadoresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +112,7 @@
 				751B76251FA0EB1F00CED083 /* AppDelegate.swift */,
 				751B76271FA0EB1F00CED083 /* ViewController.swift */,
 				751B76291FA0EB1F00CED083 /* Main.storyboard */,
+				75E1DAC51FA8B7F0001CF5A0 /* Players */,
 				751B762F1FA0EB1F00CED083 /* Assets.xcassets */,
 				75D26CDC1FA26FFF00D23AF5 /* los_angeles_clippers.png */,
 				75B5E2D11FA25B5800670231 /* nbafant.png */,
@@ -162,6 +164,14 @@
 				75D26CF91FA279A900D23AF5 /* Wolves.png */,
 			);
 			path = "Pasta Sem Título";
+			sourceTree = "<group>";
+		};
+		75E1DAC51FA8B7F0001CF5A0 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				75E1DAC61FA8B7F0001CF5A0 /* lebron.jp2 */,
+			);
+			path = Players;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
