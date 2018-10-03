@@ -13,7 +13,7 @@
 
 ## How to use?
 
-```iOS
+```
 Open the bash(With Git)
 git clone https://github.com/ViniciusDeep/NBA-Fantasy
 Ready to use!
